@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile_title">Profile</string>
+    <string name="friends_title">Friends</string>
+    <string name="setting_title">Setting</string>
+</resources>

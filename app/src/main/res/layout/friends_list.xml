@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_userContainer"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="5dp"
+    android:paddingTop="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    style="">
+<!--android:background="@drawable/notclick"
+    -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageAvatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        app:civ_border_width="2dp"
+        android:layout_marginLeft="3dp"
+        tools:background="#7673EA"/>
+
+    <TextView
+        style="@style/RecyclerViewElement"
+        android:id="@+id/tv_firstName"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        tools:text="Мария"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:shadowColor="#AEABAB"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"/>
+    <TextView
+        style="@style/RecyclerViewElement"
+        android:id="@+id/tv_lastName"
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        tools:text="Магомедрасулова"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:shadowColor="#AEABAB"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        />
+    <ImageView
+        android:id="@+id/image_online"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/icon_online" />
+</LinearLayout>
